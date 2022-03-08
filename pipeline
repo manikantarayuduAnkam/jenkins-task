@@ -2,9 +2,9 @@ pipeline {
     agent any
 
     stages {
-        stage('Hello') {
+        stage('print') {
             steps {
-                echo 'Hello World'
+                echo 'pieline created by me'
             }
         }
     }
